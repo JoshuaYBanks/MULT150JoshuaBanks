@@ -211,6 +211,24 @@ CapsuleCollider:
   m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
+--- !u!114 &14170977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14170973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e22428c88d0c417985f02f1bd4455af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  normalMat: {fileID: 0}
+  phasedMat: {fileID: 0}
+  bounds: 3
+  strafeSpeed: 4
+  phaseCooldown: 2
 --- !u!1 &29373286
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +795,7 @@ GameObject:
   - component: {fileID: 2035346537}
   - component: {fileID: 2035346536}
   - component: {fileID: 2035346535}
+  - component: {fileID: 2035346538}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -850,3 +869,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 33, y: 0, z: 0}
+--- !u!114 &2035346538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035346534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e22428c88d0c417985f02f1bd4455af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  normalMat: {fileID: 0}
+  phasedMat: {fileID: 0}
+  bounds: 3
+  strafeSpeed: 4
+  phaseCooldown: 2
