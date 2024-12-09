@@ -5,6 +5,9 @@ using UnityEngine;
 public class TriggerZone : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameManager manager;
+    public float moveSpeed = 20f;
+    public float timeAmount = 1.5f;
     void Start()
     {
         
@@ -13,7 +16,7 @@ public class TriggerZone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
     }
     void OnTriggerEnter(Collider other) 
     {

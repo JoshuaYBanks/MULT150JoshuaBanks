@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead66fdc498ae477db16137ca0704f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 0}
+  ground: {fileID: 1048362967}
   gameTime: 10
 --- !u!4 &494658780
 Transform:
@@ -595,6 +595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7184c6c1f06ac49efa79dd5a82456e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  moveSpeed: 20
+  timeAmount: 1.5
 --- !u!1 &940130794
 GameObject:
   m_ObjectHideFlags: 0
