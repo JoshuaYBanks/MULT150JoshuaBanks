@@ -18,6 +18,8 @@ Around this point I changed the camera angle to try and make it look like the pl
 9 - The variation I made was taller
 10- Changed color to light blue because it was the only opposing color to red that I frothed up in my mind.  
 
+For the UI I put in the canvas and chose a random sprite that was already in the engine as the image.  I got the button working, but I couldn't figure out for the life of me how to turn off the canvas to play the game, so the game just plays in the background.
 
+The donut mostly was working, until I added the flying donut script, then it would shoot off away from the game whenever it would start. (I was confused for around an hour trying to figure out what was going on with this)
 
 */
